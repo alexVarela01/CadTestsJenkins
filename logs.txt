@@ -1,0 +1,14 @@
+12/10/2020 19:10:38 - INFO - Start of execution
+12/10/2020 19:10:40 - INFO - Navigated to https://tul-tst.outsystemsenterprise.com/FNOL_IDV/IDV_1.aspx?(Not.Licensed.For.Production)=
+12/10/2020 19:10:43 - INFO - Maximaze Succesful
+12/10/2020 19:10:44 - INFO - Typed usertest1 in Email
+12/10/2020 19:10:45 - INFO - Typed DigitalJourney1! in Password
+12/10/2020 19:10:47 - INFO - Clicked Login
+12/10/2020 19:10:48 - INFO - Clicked ClickLetsGo
+12/10/2020 19:10:48 - INFO - Clicked AgreeWithTerms
+12/10/2020 19:10:49 - INFO - Clicked ClickNext2
+12/10/2020 19:11:38 - INFO - Start of execution
+12/10/2020 19:11:40 - INFO - Navigated to https://tul-tst.outsystemsenterprise.com/FNOL_IDV/IDV_1.aspx?(Not.Licensed.For.Production)=
+12/10/2020 19:11:44 - INFO - Maximaze Succesful
+12/10/2020 19:11:45 - INFO - Typed usertest1 in Email1
+12/10/2020 19:11:46 - INFO - Typed DigitalJourney1! in Password1

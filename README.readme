@@ -1,0 +1,47 @@
+
+
+Name Project: apptesco
+
+Automation Selenium Project developed based in a main framework based in a JAVA/SELENIUM arquitecture. 
+This script it's been developed with functionality like excel dataset obtaining, logs generator, screenshot evidences and Testlink report.
+
+REQUIREMENTS
+To launch the tests we need the JAVA visual machine or a JAVA code interpreter.
+
+EXECUTING THE TESTS
+Tests cases can be executed as a full Tests Suite or in an individually way. Then we show differents alternatives to execute
+depending of the way desired. 
+
+First, CD on jar folder and execute next commands depending of the desired execution:
+
+ Run the entire project from the JAR (All suites included with no parameters):
+     java -jar FileJar.jar
+    
+ Run by selecting only one Suite of the Test Plan:
+    java -jar FileJAR.jar TestSuite=nameSuite
+    
+ Run by selecting various Suites of the Test Plan:
+    java -jar FileJAR.jar TestSuite=nameSuite1 nameSuite2
+    
+ Run by selecting the only TestCase that we want to be executed:
+    java -jar FileJAR.jar TestCase=caseName
+    
+ Run by selecting various TestCases that we want to be executed:
+    java -jar FileJAR.jar TestCase=caseName1, caseName2
+    
+ Run by passing properties to the browser driver. Example:
+    java -jar FileJAR.jar  DriverOption=--Headless --no-sandbox
+ 
+ Full example command execution:
+    java -jar FileJAR.jar  DriverOption=--Headless --no-sandbox TestSuite=Suite1 Suite2 TestCase=Case1 Case2
+
+USE OF EXCEL
+We can use an Excel to define a data set that we are going to use for the test.
+The data set is defined in different rows, having as many columns and sheets as we want.
+
+The test will be repeated as many times as rows dataset we have defined in Excel.
+
+
+COMMON EXCEPTIONS
+    - The Test is not executed because the driver is not updated and no message is displayed
+    - Excel dataset is not correctly referenced
